@@ -288,22 +288,28 @@ POST https://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod/contact
 ## 📸 Screenshots
 
 ### 1. Architecture Diagram
-![Architecture](screenshots/architecture.png)
+![Architecture](screenshots/architecture-diagram.png)
 
 ### 2. S3 Bucket Configuration
 ![S3 Bucket](screenshots/s3-bucket.png)
 
-### 3. Lambda Function
+### 3. DynamoDB Table
+![DynamoDB Table](screenshots/dynamodb-table.png)
+
+### 4. Lambda Function
 ![Lambda](screenshots/lambda-function.png)
 
-### 4. API Gateway
+### 5. API Gateway
 ![API Gateway](screenshots/api-gateway.png)
 
-### 5. Working Application
+### 6. Working Application
 ![Working App](screenshots/working-app.png)
 
-### 6. DynamoDB Data
-![DynamoDB](screenshots/dynamodb-data.png)
+### 7. DynamoDB Data
+![DynamoDB Data](screenshots/dynamodb-data.png)
+
+### 8. CloudWatch Logs
+![CloudWatch Logs](screenshots/cloudwatch-logs.png)
 
 ---
 
