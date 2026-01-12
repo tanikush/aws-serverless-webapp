@@ -337,9 +337,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name** - Tanisha
 
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/tanisha-kushwah-280944284/)
+- Email: tanisha206guttu@gmail.com
+- GitHub: [@yourusername](https://github.com/tanikush)
 
 ---
 
