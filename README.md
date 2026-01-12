@@ -15,7 +15,6 @@ A production-grade serverless contact form application built entirely on AWS. Th
 - [Prerequisites](#prerequisites)
 - [Installation & Deployment](#installation--deployment)
 - [Project Structure](#project-structure)
-- [API Documentation](#api-documentation)
 - [Screenshots](#screenshots)
 - [Cost Analysis](#cost-analysis)
 - [Key Learnings](#key-learnings)
@@ -221,66 +220,18 @@ aws-serverless-webapp/
 │   └── lambda_function.py  # Backend logic
 │
 ├── screenshots/
-│   ├── architecture.png
+│   ├── architecture-diagram.png
 │   ├── s3-bucket.png
+│   ├── dynamodb-table.png
 │   ├── lambda-function.png
 │   ├── api-gateway.png
 │   ├── working-app.png
-│   └── dynamodb-data.png
-│
-├── docs/
-│   └── API_DOCUMENTATION.md
+│   ├── dynamodb-data.png
+│   └── cloudwatch-logs.png
 │
 ├── README.md
 ├── LICENSE
 └── .gitignore
-```
-
----
-
-## 📡 API Documentation
-
-### Endpoint
-
-```
-POST https://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod/contact
-```
-
-### Request Headers
-
-```json
-{
-  "Content-Type": "application/json"
-}
-```
-
-### Request Body
-
-```json
-{
-  "name": "John Doe",
-  "email": "john@example.com",
-  "message": "Hello, this is a test message!",
-  "timestamp": "2025-01-12T10:30:00Z"
-}
-```
-
-### Success Response (200 OK)
-
-```json
-{
-  "message": "Data saved successfully",
-  "id": "uuid-123-456-789"
-}
-```
-
-### Error Response (500 Internal Server Error)
-
-```json
-{
-  "message": "Error",
-  "error": "Error description"
-}
 ```
 
 ---
