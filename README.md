@@ -42,46 +42,10 @@ This project is a **fully functional serverless web application** that handles c
 
 ## 🏗️ Architecture
 
-```
-┌─────────────┐
-│   Browser   │
-│   (User)    │
-└──────┬──────┘
-       │ HTTP Request
-       ▼
-┌─────────────────┐
-│   Amazon S3     │
-│ Static Website  │
-│ (HTML/CSS/JS)   │
-└──────┬──────────┘
-       │ API Call
-       ▼
-┌─────────────────┐
-│  API Gateway    │
-│  REST API       │
-│  /contact POST  │
-└──────┬──────────┘
-       │ Trigger
-       ▼
-┌─────────────────┐
-│  AWS Lambda     │
-│  Python 3.12    │
-│  Backend Logic  │
-└──────┬──────────┘
-       │ Store Data
-       ▼
-┌─────────────────┐
-│   DynamoDB      │
-│  NoSQL Database │
-│  ContactFormData│
-└─────────────────┘
-       │
-       ▼
-┌─────────────────┐
-│  CloudWatch     │
-│  Logs & Monitor │
-└─────────────────┘
-```
+
+<img width="1024" height="1536" alt="AWS Serverless Web Application" src="https://github.com/user-attachments/assets/ba399d47-f920-4502-86ac-176b308cfe85" />
+
+
 
 ### Architecture Components:
 
@@ -238,28 +202,25 @@ aws-serverless-webapp/
 
 ## 📸 Screenshots
 
-### 1. Architecture Diagram
-![Architecture](screenshots/architecture-diagram.png)
-
-### 2. S3 Bucket Configuration
+### 1. S3 Bucket Configuration
 ![S3 Bucket](screenshots/s3-bucket.png)
 
-### 3. DynamoDB Table
+### 2. DynamoDB Table
 ![DynamoDB Table](screenshots/dynamodb-table.png)
 
-### 4. Lambda Function
+### 3. Lambda Function
 ![Lambda](screenshots/lambda-function.png)
 
-### 5. API Gateway
+### 4. API Gateway
 ![API Gateway](screenshots/api-gateway.png)
 
-### 6. Working Application
+### 5. Working Application
 ![Working App](screenshots/working-app.png)
 
-### 7. DynamoDB Data
+### 6. DynamoDB Data
 ![DynamoDB Data](screenshots/dynamodb-data.png)
 
-### 8. CloudWatch Logs
+### 7. CloudWatch Logs
 ![CloudWatch Logs](screenshots/cloudwatch-logs.png)
 
 ---
